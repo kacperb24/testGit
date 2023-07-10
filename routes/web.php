@@ -19,5 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::post('/', [formController::class, 'form']);
+Route::post('/', [formController::class, 'form']);
 
