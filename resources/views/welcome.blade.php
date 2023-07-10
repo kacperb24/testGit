@@ -834,7 +834,7 @@
 
 <body class="antialiased">
 
-    @if ($error)
+    @if (!empty($error))
         <div class="alert alert-danger m-2">
             <ul>
                 @foreach ($error as $er)
