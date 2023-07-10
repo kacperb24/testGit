@@ -21,6 +21,3 @@ Route::get('/', function () {
 
 Route::post('/', [formController::class, 'form']);
 
-Route::get('/download', function(){
-    return view('dir.first');
-});
