@@ -11,6 +11,7 @@ class formController extends Controller
 {
     public function form(Request $request)
     {
+        echo "aaaa";
 
         $dataForm = $request->all();
 
